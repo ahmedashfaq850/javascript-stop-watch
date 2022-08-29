@@ -1,0 +1,54 @@
+body{
+    background: #3BC8ED;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    background: white;
+    width: 40%;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 0 3pxf;
+}
+
+.container #timer{
+    text-align: center;
+    width: 100%;
+    font-size: 72px;
+    margin: 0px auto;
+    padding: 35px 0px;
+}
+
+.buttons{
+    text-align: center;
+    border: none;
+}
+
+button{
+    margin: 0px 10px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#playstopbtn{
+    color: white;
+    background: #38E019;
+}
+
+#resetbtn{
+    background: #F7260F;
+    color: white;
+}
+
+#pausebtn{
+    color: white;
+    background: #E4E810;
+}
